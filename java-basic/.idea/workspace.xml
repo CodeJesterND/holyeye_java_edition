@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bd48195-7dea-491d-9b8a-93740c13afc4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/oop1/MusicPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop1/MusicPlayerData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop1/MusicPlayerMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop1/MusicPlayerMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop1/MusicPlayerMain4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop1/ValueData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop1/ValueObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop1/ValueObjectMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop1/ex/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop1/ex/AccountMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop1/ex/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop1/ex/RectangleProceduralMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/ConstructMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/MemberConstruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/MemberDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/MemberDefaultMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/MemberInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/MemberThis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/MethodinitMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/ex/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/ex/BookMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,20 +41,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AccountMain.executor": "Run",
+    "Application.BookMain.executor": "Run",
     "Application.ClassStart5.executor": "Run",
     "Application.InitMain.executor": "Run",
     "Application.Method1.executor": "Run",
+    "Application.MethodInitMain1.executor": "Debug",
+    "Application.MethodinitMain2.executor": "Run",
     "Application.ProductOrderMain.executor": "Run",
     "Application.ProductOrderMain2.executor": "Run",
     "Application.ProductOrderMain3.executor": "Debug",
     "Application.RectangleOopMain.executor": "Run",
     "Application.RectangleProceduralMain.executor": "Run",
+    "Application.Test.executor": "Run",
     "Application.ValueObjectMain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/sinhyoseung/develop/inflearn/holyeye_Java_Edition/java-basic",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,7 +78,7 @@
       <recent name="ref" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AccountMain">
+  <component name="RunManager" selected="Application.BookMain">
     <configuration name="AccountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop1.ex.AccountMain" />
       <module name="java-basic" />
@@ -90,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOrderMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.ex.ProductOrderMain3" />
+    <configuration name="BookMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="construct.ex.BookMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ref.ex.*" />
+          <option name="PATTERN" value="construct.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleOopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop1.ex.RectangleOopMain" />
+    <configuration name="MethodInitMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="construct.MethodInitMain1" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop1.ex.*" />
+          <option name="PATTERN" value="construct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleProceduralMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop1.ex.RectangleProceduralMain" />
+    <configuration name="MethodinitMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="construct.MethodinitMain2" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop1.ex.*" />
+          <option name="PATTERN" value="construct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,26 +131,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValueObjectMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop1.ValueObjectMain" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="java-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BookMain" />
+        <item itemvalue="Application.MethodinitMain2" />
+        <item itemvalue="Application.MethodInitMain1" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.AccountMain" />
-        <item itemvalue="Application.RectangleOopMain" />
-        <item itemvalue="Application.RectangleProceduralMain" />
-        <item itemvalue="Application.ValueObjectMain" />
-        <item itemvalue="Application.ProductOrderMain3" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +166,14 @@
       <workItem from="1712139850445" duration="163000" />
       <workItem from="1712140019714" duration="150000" />
       <workItem from="1712140223076" duration="24726000" />
-      <workItem from="1712654920093" duration="15272000" />
+      <workItem from="1712654920093" duration="17129000" />
+      <workItem from="1712822866603" duration="603000" />
+      <workItem from="1712824717555" duration="1515000" />
+      <workItem from="1712835017745" duration="6000" />
+      <workItem from="1712835039836" duration="46000" />
+      <workItem from="1712845815012" duration="696000" />
+      <workItem from="1712859108208" duration="1280000" />
+      <workItem from="1713082330213" duration="8154000" />
     </task>
     <servers />
   </component>
