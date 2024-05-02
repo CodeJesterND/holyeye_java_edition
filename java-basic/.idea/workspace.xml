@@ -5,33 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bd48195-7dea-491d-9b8a-93740c13afc4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/access/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/BankAccountMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/Speaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/SpeakerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/a/AccessData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/a/AccessInnerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/a/PublicClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/b/PublicClassOuterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/ex/CounterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/ex/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/ex/MaxCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/ex/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/ex/ShoppingCartMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/order/OrderHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/order/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/product/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/helloshop/user/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/PackageMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/PackageMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/PackageMain3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/a/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/b/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memory/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memory/JavaMemoryMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memory/JavaMemoryMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memory/static1/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memory/static1/Data1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memory/static1/Data2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memory/static1/Data3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memory/static1/DataCountMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memory/static1/DataCountMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memory/static1/DataCountMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memory/static2/DecoData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memory/static2/DecoDataMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memory/static2/DecoMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memory/static2/DecoMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memory/static2/DecoUtil1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memory/static2/DecoUtil2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/access/ex/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/access/ex/ShoppingCart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,10 +85,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="memory.static2" />
+      <recent name="memory.static1" />
+      <recent name="memory" />
       <recent name="pack.a" />
       <recent name="oop1" />
-      <recent name="ref.ex" />
-      <recent name="ref" />
     </key>
   </component>
   <component name="RunManager" selected="Application.CounterMain">
@@ -206,6 +197,7 @@
       <workItem from="1713171154351" duration="320000" />
       <workItem from="1713177700906" duration="13076000" />
       <workItem from="1713258294593" duration="191000" />
+      <workItem from="1714544395056" duration="10107000" />
     </task>
     <servers />
   </component>
