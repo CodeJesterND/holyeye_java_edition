@@ -96,6 +96,59 @@ public class JpaMain {
 //
 //            System.out.println("========================");
 
+//            // SEQUENCE 전략
+//            Member member1 = new Member();
+//            member1.setUsername("A");
+//
+//            Member member2 = new Member();
+//            member2.setUsername("B");
+//
+//            Member member3 = new Member();
+//            member3.setUsername("C");
+//
+//            System.out.println("==============");
+//
+//            em.persist(member1);
+//            em.persist(member2);
+//            em.persist(member3);
+//
+//            System.out.println("member1 = " + member1.getId());
+//            System.out.println("member2 = " + member2.getId());
+//            System.out.println("member3 = " + member3.getId());
+//            System.out.println("==============");
+
+            Team team = new Team();
+            team.setName("TeamA");
+            em.persist(team);
+
+            Member2 member = new Member2();
+            member.setUsername("member1");
+//            member.changeTeam(team);
+            em.persist(member);
+
+            team.addMember(member);
+
+//            team.getMembers().add(member);
+
+            em.flush();
+            em.clear();
+
+            // 조회
+            Member2 findMember = em.find(Member2.class, member.getId());
+
+//            Team findTeam = findMember.getTeam();
+//            System.out.println("findTeam = " + findTeam.getName());
+//
+//            // 변경
+//            Team newTeam = em.find(Team.class, 100L);
+//            findMember.setTeam(newTeam);
+
+            List<Member2> members = findMember.getTeam().getMembers();
+
+            for (Member2 m : members) {
+                System.out.println("m = " + m.getUsername());
+            }
+
             tx.commit();
         } catch (Exception e) {
             tx.rollback();
